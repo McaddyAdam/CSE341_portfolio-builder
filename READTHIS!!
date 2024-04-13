@@ -12,5 +12,3 @@ npm install dotenv
 we will need to exchange the URL to our new mongodb account
 
 URL = '........'
-
-
