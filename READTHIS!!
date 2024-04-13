@@ -1,0 +1,16 @@
+Remember to install
+
+nodemon
+npm install nodemon
+
+express-validator
+npm install express-validator
+
+dotenv
+npm install dotenv
+
+we will need to exchange the URL to our new mongodb account
+
+URL = '........'
+
+

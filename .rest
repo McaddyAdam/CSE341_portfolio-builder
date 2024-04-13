@@ -1,0 +1,33 @@
+GET http://localhost:7070/stores HTTP/1.1
+###
+GET http://localhost:7070/stores/654e598e140dd9f87da56296 HTTP/1.1
+###
+PUT http://localhost:7070/stores/654e598e140dd9f87da56296 HTTP/1.1
+content-type: application/json
+
+{
+    "address": "10000, Young street, London ON",
+    "email": "store3@gamil.com",
+    "manager_name": "Jack London",
+    "phone_number": "ppp",
+    "office_hours": "9am-9pm"
+   
+}
+
+
+###
+POST http://localhost:7070/stores HTTP/1.1
+content-type: application/json
+
+{
+    "address": "10000, Young street, London ON",
+    "email": "store3@gamil.com",
+    "manager_name": "Jack London",
+    "phone_number": "9056666666",
+    "office_hours": "9am-9pm"
+   
+}
+
+###
+DELETE http://localhost:7070/stores/6552327c39472137625b9d2c HTTP/1.1
+
